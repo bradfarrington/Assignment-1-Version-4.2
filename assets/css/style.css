@@ -1,0 +1,1252 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 200;
+  padding-bottom: 25px;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* styles for the header */
+
+.header-button{
+  float: right;
+  padding-right: 50px;
+}
+
+#headerDownloadButton {
+  background-color: #e5040a;
+  border-radius: 5px;
+  color: white;
+  width: 250px;
+  height: 50px;
+  font-size: 150%;
+}
+
+#headerDownloadButton:hover {
+  transform: scale(1.1);
+  border: 2px solid black;
+}
+
+#header-nav {
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+#header-nav li {
+  float: left;
+  margin-right: 30px;
+  font-size: 150%;
+  margin-top: 10px;
+}
+
+#header-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#header-nav a:hover {
+  border-bottom: 2px solid #e5040a;
+}
+
+.active {
+  border-bottom: 2px solid #e5040a;
+}
+
+header > button {
+  float: right;
+  margin-right: 50px;
+}
+
+/* This is section where i am creating styles for the logo outer div / the main logo and the title and video */
+
+#main-logo-section {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#main-logo {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#video-and-intro-text-section {
+  height: 600px;
+}
+
+#intro-text {
+  width: 50%;
+  float: left;
+}
+
+#video {
+  float: right;
+  padding-top: 160px;
+  width: 50%;
+}
+
+#mainVideo {
+  padding-right: 100px;
+}
+
+#title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 55px;
+  margin-top: 95px;
+  float: right;
+  padding-right: 110px;
+
+}
+
+#mainParagraph {
+  font-size: 24px;
+  margin-top: 25px;
+  float: right;
+  clear: both;
+}
+
+#main-section-buttons {
+  width: 50%;
+  float: right;
+  margin-top: 40px;
+  padding-right: 175px;
+}
+
+#downloadButton {
+  background-color: #e5040a;
+  border-radius: 5px;
+  border-color: black;
+  margin-right: 25px;
+  color: white;
+  width: 175px;
+  height: 40px;
+  font-size: 18px;
+}
+
+#downloadButton:hover {
+  transform: scale(1.1);
+  border: 2px solid black;
+}
+
+#learnButton {
+  border-radius: 5px;
+  width: 175px;
+  height: 40px;
+  color: black;
+  font-size: 18px;
+}
+
+#learnButton:hover {
+  transform: scale(1.1);
+  border: 2px solid black;
+}
+
+/* creating styles for the mockup image */
+
+#mockup-image-section {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+#mockup-image-container {
+  text-align: center;
+  margin-top: 200px;
+}
+
+#mockup-image-container > img {
+  width: 100%;
+  padding-top: 100px;
+}
+
+/* creating styles for the info horizontal section and image */
+
+#info-section {
+  width: 100%;
+  margin-top: 100px;
+  float: left;
+}
+
+#info-section div {
+  color: black;
+  width: 20%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  padding-left: 65px;
+  margin-top: 10px;
+}
+#info-section i {
+  font-size: 40px;
+}
+#info-section h3 {
+  padding-top: 20px;
+  font-size: 24px;
+}
+#info-section p {
+  padding-top: 20px;
+  font-size: 92%
+}
+
+/* creating styles for the contact us header */
+
+#contact-us-section h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+/* creating styles for the form section */
+
+#form-section {
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+}
+
+#contact-form {
+  border: 0.5px solid black;
+  color: white;
+  background-color: lightgray;
+}
+
+#fName {
+  width: 900px;
+  font-size: 35px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  background-color: lightgray;
+  color: black;
+}
+#email {
+  width: 900px;
+  font-size: 35px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  background-color: lightgray;
+  color: black;
+}
+#number {
+  width: 900px;
+  font-size: 35px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  background-color: lightgray;
+  color: black;
+}
+#message {
+  width: 900px;
+  font-size: 35px;
+  margin-bottom: 25px;
+  height: 150px;
+  margin-left: 25px;
+  background-color: lightgray;
+  color: black;
+}
+#submitButton {
+  background-color: #e5040a;
+  border-radius: 5px;
+  border-color: #e5040a;
+  margin-right: 25px;
+  color: white;
+  width: 905px;
+  height: 50px;
+  font-size: 25px;
+  justify-content: center;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+#submitButton:hover {
+  transform: scale(1.02);
+  border: 2px solid black;
+}
+
+/* creating styles for the footer */
+
+#footer {
+  width: 50%;
+  height: 150px;
+  padding-top: 150px;
+  margin: 0 auto;
+}
+
+#main-footer-container {
+  display: flex;
+}
+
+#left-footer-section {
+  padding-top: 15px;
+  width: 33%;
+  float: left;
+  text-align: center;
+  font-size: 24px;
+}
+
+#right-footer-section {
+  padding-top: 5px;
+  width: 33%;
+  float: right;
+  text-align: center;
+}
+
+#footer-image {
+  width: 75px;
+  text-align: center;
+}
+
+#center-footer-section {
+  width: 33%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#footerDownloadButton {
+  background-color: #e5040a;
+  border-radius: 5px;
+  color: white;
+  width: 250px;
+  height: 50px;
+  font-size: 150%;
+}
+
+#footerDownloadButton:hover {
+  transform: scale(1.02);
+  border: 2px solid black;
+}
+
+#divider {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#divider hr {
+  border: none;
+  height: 2px;
+  background-color: black;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#footer-links {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+#footer-nav {
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 2px;
+  display: flex;
+  padding-left: 5%
+}
+
+#footer-nav-bar a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+#footer-nav-bar a:hover {
+  border-bottom: 2px solid #e5040a;
+}
+
+.about-download-links {
+  margin-left: 85px;
+}
+
+/* creating styles for the about page */
+
+/* creating styles for the video section */
+
+#designer-video-section {
+  width: 100%;
+  height: 600px;
+}
+
+#designer-video-container {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+}
+
+#designer-Video{
+  width: 100%;
+}
+
+/* creating styles for the descriptions and mockup section */
+
+#description-section {
+  width: 100%;
+  height: 2500px;
+  margin-top: 150px;
+}
+
+#description-container {
+  width: 100%;
+}
+
+#description-one {
+  width: 100%;
+  height: 750px;
+}
+
+#description-one-text {
+  width: 50%;
+  float: left;
+  padding-left: 100px;
+}
+
+#description-one-header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 65px;
+  margin-top: 95px;
+}
+
+#description-one-paragraph {
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+#description-one-mockup {
+  width: "50%";
+  float: right;
+  padding-right: 150px;
+}
+
+#description-two {
+  width: 100%;
+  height: 850px;
+  margin-top: 50px;
+}
+
+#description-two-text {
+  width: 50%;
+  float: right;
+  padding-right: 100px;
+}
+
+#description-two-header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 65px;
+  margin-top: 95px;
+}
+
+#description-two-paragraph {
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+#description-two-mockup {
+  width: "50%";
+  float: left;
+  padding-left: 100px;
+}
+
+#description-three {
+  width: 100%;
+  margin-top: 75px;
+  height: 750px;
+}
+
+#description-three-text {
+  width: 50%;
+  float: left;
+  padding-left: 100px;
+  margin-top: 50px;
+}
+
+#description-three-header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 65px;
+  margin-top: 95px;
+}
+
+#description-three-paragraph {
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+#description-three-mockup {
+  width: "50%";
+  float: right;
+  padding-right: 100px;
+}
+
+/* creating extra styles for the download page */
+
+#download-video-and-intro-text-section {
+  height: 600px;
+}
+
+#download-main-text {
+  width: 50%;
+  float: left;
+}
+
+#download-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 75%;
+  font-size: 65px;
+  padding-top: 95px;
+  padding-left: 245px;
+}
+
+#download-video {
+  float: right;
+  padding-top: 160px;
+  width: 50%;
+}
+
+#download-mainVideo {
+  padding-right: 100px;
+}
+
+#app-store-buttons-section {
+  width: 100%;
+  height: 150px;
+  margin-top: 150px;
+}
+
+#app-store-buttons-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#apple-store-button-container {
+  width: 50%;
+  float: left;
+}
+
+#apple-store-button {
+  width: 80%;
+  float: left;
+}
+
+#play-store-button-container {
+  width: 50%;
+  float: right;
+}
+
+#play-store-app-button {
+  width: 80%;
+  float: right;
+}
+
+/* creating responsive css for tablets */
+
+@media screen and (max-width: 1393px) {
+  /* creating styles for the header */
+
+  #header-nav li {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #headerDownloadButton {
+    width: 125%;
+    font-size: 18px;
+  }
+
+  /* styles for the home page */
+
+  #main-logo-section {
+    height: 320px;
+  }
+
+  #video-and-intro-text-section {
+    width: 75%;
+    padding-left: 40px;
+    height: 60%;
+  }
+
+  #intro-text {
+    width: 50%;
+  }
+
+  #title {
+    font-size: 30px;
+    padding-right: 0px;
+    padding-left: 45px;
+  }
+
+  #mainParagraph {
+    font-size: 18px;
+    padding-left: 45px;
+  }
+
+  #main-section-buttons {
+    display: flex;
+    float: left;
+    padding-left: 10%;
+  }
+
+  #video {
+    width: 40%;
+    float: right;
+    padding-top: 100px;
+  }
+
+  #mainVideo {
+    width: 125%;
+    height: 300px;
+    padding-top: 25px;
+    padding-left: 45px;
+  }
+
+  br {
+    display: none;
+  }
+
+  /* creating styles for the info section */
+
+  #info-section {
+    width: 95%;
+    height: 300px;
+    display: flex;
+  }
+
+
+  /* creating styles for the mockup image */
+
+  #mockup-image-section {
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  #mockup-image-container {
+    width: 100%;
+  }
+
+  #mockup-image {
+    width: 75%;
+    height: 75%;
+  }
+
+  /* creating styles for the contact us form */
+
+  #contact-us-section h1 {
+    font-size: 35px;
+  }
+
+  #form-section {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  #fName{
+    width: 90%;
+  }
+
+  #email {
+    width: 90%;
+  }
+
+  #number {
+    width: 90%;
+  }
+
+  #message{
+    width: 90%;
+  }
+
+  #contact-form{
+    width: 100%;
+  }
+
+  #submitButton {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  /* creating styles for the footer */
+
+  #footer {
+    width: 100%;
+  }
+
+  #footer p {
+    font-size: 22px;
+  }
+
+  #footer-nav-bar /* for ipad landscape */ {
+    padding-left: 25px;
+  }
+
+  #footer-nav {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #footerDownloadButton {
+    width: 65%;
+    font-size: 19px;
+  }
+
+  /* CREATING STYLES FOR THE ABBOUT PAGE ON TABLET */
+
+  /* creating styles for the designer-video-section */
+
+  /* styles for description-one */
+
+  #designer-video-section {
+    margin-top: 50px;
+    height: 400px;
+  }
+
+  #designer-Video {
+    width: 80%;
+    height: 500px;
+  }
+
+  #description-section {
+    margin-top: 180px;
+    height: 2200px;
+  }
+
+  #description-container {
+    width: 100%;
+  }
+
+  #description-one {
+    width: 100%;
+    height: 700px;
+  }
+
+  #description-one-text {
+    width: 45%;
+  }
+
+  #description-one-header {
+    font-size: 35px;
+  }
+
+  #description-one-paragraph {
+    font-size: 18px;
+  }
+
+  #description-one-mockup {
+    width: 25%;
+    padding-top: 125px;
+  }
+
+  #description-one-mockup-image {
+    width: 275px;
+    padding-left: 50px;
+  }
+
+  /* styles for description-two */
+
+  #description-two {
+    width: 100%;
+    height: 650px;
+  }
+
+  #description-two-text {
+    width: 45%;
+  }
+
+  #description-two-header {
+    font-size: 35px;
+  }
+
+  #description-two-paragraph {
+    font-size: 18px;
+  }
+
+  #description-two-mockup {
+    width: 25%;
+    padding-top: 100px;
+  }
+
+  #description-two-mockup-image {
+    width: 275px;
+    padding-right: 50px;
+  }
+
+  /* styles for description-three */
+
+  #description-three {
+    width: 100%;
+  }
+
+  #description-three-text {
+    width: 45%;
+  }
+
+  #description-three-header {
+    font-size: 35px;
+  }
+
+  #description-three-paragraph {
+    font-size: 18px;
+  }
+
+  #description-three-mockup {
+    width: 25%;
+    padding-top: 125px;
+  }
+
+  #description-three-mockup-image {
+    width: 275px;
+    padding-right: 50px;
+    padding-top: 25px;
+  }
+
+  /* styles for DOWNLOAD PAGE */
+
+  #download-video-and-intro-text-section {
+    width: 75%;
+    padding-left: 40px;
+    height: 500px
+  }
+
+  #download-main-text{
+    width: 50%;
+  }
+  
+  #download-title{
+    font-size: 30px;
+    float: left;
+    padding-left: 45px;
+  }
+
+  #download-video {
+    width: 40%;
+    float: right;
+    padding-top: 100px;
+  }
+
+  #download-mainVideo {
+    width: 125%;
+    height: 300px;
+    padding-top: 25px;
+    padding-left: 45px;
+  }
+
+  #app-store-buttons-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#apple-store-button{
+  padding-left: 50px;
+}
+
+#play-store-app-button{
+  padding-right: 50px;
+}
+
+}
+
+/* creating a single styles for ipad portait */
+
+@media screen and (max-width: 820px) {
+
+  body{
+    width: 100%
+  }
+  #footer-nav-bar {
+    padding-left: 0px;
+  }
+
+  /* home page adjustments */
+
+  #video-and-intro-text-section {
+    width: 85%;
+    padding-left: 0px;
+    height: 550px;
+  }
+
+  #downloadButton{
+    width: 150px;
+  }
+
+  #learnButton{
+    width: 150px;
+  }
+
+  #info-section {
+    width: 95%;
+    height: 450px;
+    display: flex;
+  }
+
+  #video{
+    width: 40%;
+  }
+
+  #mainVideo {
+    width: 100%;
+  }
+
+  
+  /* about page adjustments */
+
+  #description-section{
+    height: 2200px;
+  }
+
+  #description-container{
+    width: 90%;
+  }
+
+  #description-one-text{
+    width: 50%;
+    padding-left: 30px;
+  }
+
+  #description-one-mockup{
+    width: 15%;
+  }
+
+
+  #description-two-text{
+    width: 40%;
+    padding-right: 0px;
+    padding-top: 1px;
+  }
+
+  #description-two-header{
+    padding-left: 10px;
+  }
+
+  #description-two-paragraph{
+    padding-left: 10px;
+  }
+
+  #description-two-mockup{
+    width: 15%;
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+
+
+  #description-three-mockup{
+    width: 15%;
+  }
+
+  #description-three-text{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: px;
+  }
+
+  /* download page adjustments */
+
+  #download-main-text {
+    width: 60%;
+  }
+
+  #download-main-paragraph {
+    width: 100%;
+  }
+
+  #download-video-and-intro-text-section{
+    width: 85%;
+    padding-left: 0px;
+    height: 550px;
+  }
+
+
+}
+
+/* creating styles for mobile device */
+
+
+@media screen and (max-width: 414px) {
+
+/* creating styles for the header */ 
+
+  #header-nav {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  #headerDownloadButton{
+    display: none;
+  }
+
+/* creating styles for the home page */
+
+  #video-and-intro-text-section {
+    width: 60%;
+    padding-left: 0px;
+    height: 550px;
+  }
+
+  #video{
+    width: 10%;
+  }
+
+  #mainVideo {
+    width: 120%;
+  }
+
+  #intro-text{
+    width: 150%;
+  }
+
+  #title{
+    width: 90%;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+
+  #mainParagraph {
+    width: 90%;
+    margin-left: 60px;
+  }
+
+  #video {
+    width: 125%;
+    margin-right: 25px;
+    padding-top: 10px;
+  }
+
+  #mainVideo{
+    margin-left: 65px;
+  }
+
+
+  #info-section{
+    width: 100%;
+    height: 900px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #info-section div {
+    width: 90%;
+    padding-left: 0px;
+  }
+
+  #info-section h3 {
+    font-size: 20px;
+  }
+
+  #contact-us-section h1 {
+    font-size: 20px;
+  }
+
+  #fName{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  #email {
+    font-size: 20px;
+  }
+
+  #number {
+    font-size: 20px;
+  }
+
+  #message {
+    font-size: 20px;
+  }
+
+/* creating styles for the footer */
+
+  #footer{
+    width: 100%;
+  }
+
+  #footer p {
+    font-size: 15px;
+    float: left;
+    padding-left: 0px;
+  }
+
+  #footerDownloadButton {
+    width: 75%;
+    font-size: 12px;
+    height: 50%;
+    margin-top: 10px;
+  }
+
+  #footer-nav-bar{
+    width: 100%;
+  }
+
+  #footer-nav {
+    width: 100%;
+  }
+
+  #footer-nav a {
+    font-size: 20px;
+  }
+
+  .about-download-links{
+    margin-left: 50px;
+  }
+
+/* creating styles for the about page */
+
+  #designer-video-section {
+    margin-top: 0px;
+  }
+
+  #designer-video-container{
+  margin-bottom: 0px;
+  height: 400px;
+  }
+
+  #designer-video{
+    width: 100%;
+    height: 80%;
+    padding-bottom: 0px;
+  }
+
+  #description-section {
+    margin-top: 0px;
+    width: 100%;
+    height: 3900px;
+  }
+
+  #description-container{
+    flex-direction: column;
+  }
+
+  #description-one {
+    width: 100%;
+    text-align: center;
+  }
+
+  #description-one-text{
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  #description-one-mockup{
+    width: 100%;
+  }
+
+  #description-one-mockup-image{
+    width: 80%;
+    margin-left: 150px;
+  }
+
+  #description-two {
+    width: 100%;
+    text-align: center;
+  }
+
+  #description-two-text{
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  #description-two-mockup{
+    width: 100%;
+  }
+
+  #description-two-mockup-image{
+    width: 80%;
+    margin-left: 30px;
+  }
+
+  #description-three {
+    width: 100%;
+    text-align: center;
+  }
+
+  #description-three-text{
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  #description-three-mockup{
+    width: 100%;
+  }
+
+  #description-three-mockup-image{
+    width: 80%;
+    margin-left: 150px;
+  }
+
+  /* creating styles for the download page */
+
+
+
+  #download-video-and-intro-text-section{
+    width: 100%;
+  }
+
+  #download-main-text{
+    width: 100%;
+  }
+
+  #download-main-text h1{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  #download-main-text p {
+    padding-right: 10px;
+    font-size: 18px;
+  }
+
+  #download-video{
+    width: 100%;
+  }
+
+  #download-mainVideo{
+    width: 85%;
+    padding-left: 30px;
+    padding-top: 0px;
+  }
+
+  #app-store-buttons-section{
+    height: 300px;
+  }
+
+  #app-store-buttons-container{
+    flex-direction: column;
+  }
+
+  #apple-store-button-container{
+    width: 100%;
+  }
+
+  #play-store-button-container{
+    width: 100%;
+  }
+
+  #apple-store-button{
+    width: 50%;
+    margin-left: 50px;
+  }
+
+  #play-store-app-button{
+    width: 50%;
+    margin-right: 58px;
+    padding-top: 25px;
+  }
+
+}
