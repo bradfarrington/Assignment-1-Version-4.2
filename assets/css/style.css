@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -867,7 +869,7 @@ header > button {
 @media screen and (max-width: 1024px) {
 
   body{
-    width: 100%
+    width: 100%;
   }
   #footer-nav-bar {
     padding-left: 0px;
@@ -970,6 +972,8 @@ header > button {
 
 
 @media screen and (max-width: 430px) {
+  
+
 
 /* creating styles for the header */ 
 
@@ -1040,6 +1044,14 @@ header > button {
 
   #info-section h3 {
     font-size: 20px;
+  }
+
+  #mockup-image-section{
+    width: 95%;
+  }
+
+  #mockup-image-container{
+    width: 100%;
   }
 
   #contact-us-section h1 {
@@ -1147,20 +1159,23 @@ header > button {
   #description-two {
     width: 100%;
     text-align: center;
+    padding-left: 15px;
   }
 
   #description-two-text{
     width: 100%;
-    padding-left: 15px;
+    padding-left: 30px;
   }
 
   #description-two-mockup{
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   #description-two-mockup-image{
     width: 80%;
-    margin-left: 30px;
+    margin-left: 40px;
   }
 
   #description-three {
