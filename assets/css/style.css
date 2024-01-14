@@ -995,11 +995,14 @@ header > button {
   }
 
   #video{
-    width: 10%;
+    width: 125%;
+    margin-right: 35px;
+    padding-top: 10px;
   }
 
   #mainVideo {
     width: 120%;
+    margin-left: 65px;
   }
 
   #intro-text{
@@ -1017,16 +1020,6 @@ header > button {
   #mainParagraph {
     width: 90%;
     margin-left: 60px;
-  }
-
-  #video {
-    width: 125%;
-    margin-right: 25px;
-    padding-top: 10px;
-  }
-
-  #mainVideo{
-    margin-left: 65px;
   }
 
 
