@@ -164,7 +164,7 @@ header > button {
 
 #mockup-image-section {
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-top: 50px;
 }
 
@@ -897,6 +897,15 @@ header > button {
     display: flex;
   }
 
+  #mainVideo{
+    padding-right: 0px;
+  }
+
+  #download-mainVideo{
+    padding-right: 0px;
+
+  }
+
   
   /* about page adjustments */
 
@@ -1212,6 +1221,10 @@ header > button {
     font-size: 18px;
   }
 
+  #main-section-buttons{
+    padding-right: 0px;
+  }
+
   #download-video{
     width: 100%;
   }
@@ -1219,6 +1232,7 @@ header > button {
   #download-mainVideo{
     width: 85%;
     padding-left: 30px;
+    padding-right: 0px;
     padding-top: 0px;
   }
 
@@ -1245,8 +1259,8 @@ header > button {
 
   #play-store-app-button{
     width: 50%;
-    margin-right: 58px;
     padding-top: 25px;
+    padding-right: 24%;
   }
 
 }
