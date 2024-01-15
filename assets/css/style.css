@@ -510,10 +510,10 @@ header > button {
 
 #download-title {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 75%;
   font-size: 65px;
   padding-top: 95px;
-  padding-left: 245px;
+  float: right;
+  padding-right: 170px;
 }
 
 #download-video {
