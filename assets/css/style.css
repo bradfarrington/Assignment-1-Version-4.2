@@ -148,6 +148,7 @@ header > button {
 }
 
 #learnButton {
+  background-color: #D8D8D8;
   border-radius: 5px;
   width: 175px;
   height: 40px;
