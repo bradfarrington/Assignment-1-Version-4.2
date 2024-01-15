@@ -100,12 +100,12 @@ header > button {
 
 #video {
   float: right;
-  padding-top: 160px;
+  padding-top: 120px;
   width: 50%;
 }
 
 #mainVideo {
-  padding-right: 100px;
+  padding-right: 0px;
 }
 
 #title {
@@ -377,7 +377,7 @@ header > button {
 }
 
 .about-download-links {
-  margin-left: 85px;
+  margin-left: 100px;
 }
 
 /* creating styles for the about page */
@@ -514,17 +514,17 @@ header > button {
   font-size: 55px;
   padding-top: 95px;
   float: right;
-  padding-right: 250px;
+  padding-right: 225px;
 }
 
 #download-video {
   float: right;
-  padding-top: 160px;
+  padding-top: 100px;
   width: 50%;
 }
 
 #download-mainVideo {
-  padding-right: 100px;
+  padding-right: 0px;
 }
 
 #app-store-buttons-section {
