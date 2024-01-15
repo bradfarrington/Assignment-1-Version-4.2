@@ -1214,10 +1214,12 @@ header > button {
   #download-main-text h1{
     text-align: center;
     font-size: 22px;
+    padding-right: 0px;
+    padding-left: 65px;
   }
 
   #download-main-text p {
-    padding-right: 10px;
+    padding-right: 15px;
     font-size: 18px;
   }
 
