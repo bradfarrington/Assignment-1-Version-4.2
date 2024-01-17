@@ -1,7 +1,7 @@
 # BSW Customer Portal
 ( Developer: Brad Farrington )
 
-![Mockup Image](assets/images/mockup-image-multiple-devices.jpg)
+![Mockup Image](docs/mockups/mockup-image-multiple-devices.jpg)
 
 [Live Webpage](https://bradfarrington.github.io/Assignment-1-Version-4.2/index.html)
 
@@ -126,3 +126,49 @@ Specific colours used on the site are:
 
 ### Fonts
 
+I have chosen a font family for my website which will alow the browser to select one of the various fonts within the family depending on the browser.
+These fonts are :
+
+1. Arial
+2. Helvetica
+3. sans-serif
+
+I have chosen a font family so that the fonts of all text are consistent throughout the website to keep the design sleek and easily readi
+
+
+### Structure
+
+The page is structured in a user-friendly easy to follow way. When they arrive on the landing the page they will see a simple navigation bar and the logo of the app which is intended to be downloaded below it and this consists on each page of the website. All navigation links take them to a seperate page which contains different information about the app itself.
+
+The website consists of three seperate pages:
+- A homepage which gives them a brief description of the features the app has including a promotional video and a contact form.
+- The about page which goes more in depth to the three main features of the app, also containing a different promotional video about one distinct feature.
+- The download page which is short and simple with two call to action buttons depending on if they would like the app for apple for android devices.
+
+
+### Wireframes
+
+<details><summary>Home</summary>
+<img src="docs/wireframes/Home-Wireframe.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/wireframes/About-Wireframe.png">
+</details>
+<details><summary>Download</summary>
+<img src="docs/wireframes/Download-Wireframe.png">
+</details>
+
+
+## Technologies Used
+
+### Languages
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks and Tools
+- [GitHub](https://github.com)
+- [Font Awesome](https://fontawesome.com/search)
+- [Favicon](https://favicon.io/)
+- [Figma](https://figma.com)
+- [W3C Validator](https://validator.w3.org/)
+- [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) 
