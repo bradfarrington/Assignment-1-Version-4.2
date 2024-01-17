@@ -152,7 +152,7 @@ The website consists of three seperate pages:
 <img src="docs/wireframes/Home-Wireframe2.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/wireframes/About-Wireframe.png">
+<img src="docs/wireframes/About-Wireframe2.png">
 </details>
 <details><summary>Download</summary>
 <img src="docs/wireframes/Download-Wireframe.png">
