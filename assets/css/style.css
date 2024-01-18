@@ -24,17 +24,15 @@ header {
   background-color: #e5040a;
   border-radius: 5px;
   float: right;
-  width: 250px;
-  height: 50px;
   color: white;
-  font-size: 150%;
+  font-size: 125%;
   text-decoration: none;
-}
-
-#headerDownloadButton {
-  color: white;
-  font-size: 100%;
-  text-decoration: none;
+  margin-right: 3%;
+  margin-top: 0.3%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
 }
 
 .header-button:hover {
@@ -52,9 +50,9 @@ header {
 
 #header-nav li {
   float: left;
-  margin-right: 30px;
+  margin-right: 2%;
   font-size: 150%;
-  margin-top: 10px;
+  margin-top: 0.6%;
 }
 
 #header-nav a {
@@ -70,11 +68,6 @@ header {
   border-bottom: 2px solid #e5040a;
 }
 
-header > button {
-  float: right;
-  margin-right: 50px;
-}
-
 /* This is section where i am creating styles for the logo outer div / the main logo and the title and video */
 
 #main-logo-section {
@@ -85,7 +78,7 @@ header > button {
 }
 
 #main-logo {
-  margin-top: 100px;
+  padding-top: 8%;
   text-align: center;
 }
 
@@ -105,21 +98,19 @@ header > button {
 }
 
 #mainVideo {
-  padding-right: 0px;
   padding-left: 15%;
 }
 
 #title {
-  font-size: 55px;
-  margin-top: 95px;
-  float: right;
-  padding-right: 110px;
+  font-size: 300%;
+  margin-top: 15%;
+  padding-left: 25.5%;
 
 }
 
 #mainParagraph {
-  font-size: 24px;
-  margin-top: 25px;
+  font-size: 150%;
+  margin-top: 3%;
   float: right;
   clear: both;
 }
@@ -127,24 +118,21 @@ header > button {
 #main-section-buttons {
   width: 50%;
   float: right;
-  margin-top: 40px;
-  padding-right: 175px;
+  margin-top: 5%;
+  padding-right: 15%;
 }
+
 
 #downloadButton {
   background-color: #e5040a;
   border-radius: 5px;
-  border-color: black;
-  margin-right: 25px;
-  width: 175px;
-  height: 40px;
-}
-
-#downloadButtonText{
+  padding: 2%;
+  margin-right: 5%;
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 150%;
 }
+
 
 #downloadButton:hover {
   transform: scale(1.1);
@@ -154,66 +142,63 @@ header > button {
 #learnButton {
   background-color: #D8D8D8;
   border-radius: 5px;
-  width: 175px;
-  height: 40px;
-}
-
-#learnButtonText {
+  padding: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
   color: black;
-  font-size: 18px;
+  font-size: 150%;
   text-decoration: none;
 }
+
 
 #learnButton:hover {
   transform: scale(1.1);
   border: 2px solid black;
 }
 
-/* creating styles for the mockup image */
 
-#mockup-image-section {
-  width: 100%;
-  height: 100%;
-  padding-top: 50px;
-}
-
-#mockup-image-container {
-  text-align: center;
-  margin-top: 200px;
-}
-
-#mockup-image-container > img {
-  width: 100%;
-  padding-top: 100px;
-}
 
 /* creating styles for the info horizontal section and image */
 
 #info-section {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 8%;
   float: left;
 }
 
 #info-section div {
   color: black;
   width: 20%;
-  height: 300px;
+  height: 50%;
   float: left;
   text-align: center;
   padding-left: 65px;
   margin-top: 10px;
 }
 #info-section i {
-  font-size: 40px;
+  font-size: 350%;
 }
 #info-section h3 {
-  padding-top: 20px;
-  font-size: 24px;
+  padding-top: 5%;
+  font-size: 175%;
 }
 #info-section p {
-  padding-top: 20px;
-  font-size: 92%
+  padding-top: 5%;
+  font-size: 110%
+}
+
+#mockup-image-section {
+  width: 100%;
+  padding-top: 25%;
+}
+
+#mockup-image-container {
+  text-align: center;
+}
+
+#mockup-image-container > img {
+  width: 60%;
+  padding-top: 100px;
 }
 
 /* creating styles for the contact us header */
@@ -221,15 +206,15 @@ header > button {
 #contact-us-section h1 {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 50px;
-  margin-top: 100px;
+  font-size: 300%;
+  margin-top: 10%;
 }
 
 /* creating styles for the form section */
 
 #form-section {
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 5%;
   display: flex;
 }
 
@@ -237,53 +222,54 @@ header > button {
   border: 0.5px solid black;
   color: white;
   background-color: lightgray;
+  height: 250%;
+  width: 50%;
 }
 
 #fName {
-  width: 900px;
-  font-size: 35px;
-  margin-bottom: 25px;
-  margin-left: 25px;
+  width: 90%;
+  font-size: 225%;
+  margin-bottom: 5%;
+  margin-left: 3%;
   background-color: lightgray;
   color: black;
 }
 #email {
-  width: 900px;
-  font-size: 35px;
-  margin-bottom: 25px;
-  margin-left: 25px;
+  width: 90%;
+  font-size: 225%;
+  margin-bottom: 5%;
+  margin-left: 3%;
   background-color: lightgray;
   color: black;
 }
 #number {
-  width: 900px;
-  font-size: 35px;
-  margin-bottom: 25px;
-  margin-left: 25px;
+  width: 90%;
+  font-size: 225%;
+  margin-bottom: 5%;
+  margin-left: 3%;
   background-color: lightgray;
   color: black;
 }
 #message {
-  width: 900px;
-  font-size: 35px;
-  margin-bottom: 25px;
-  height: 150px;
+  width: 90%;
+  font-size: 225%;
+  margin-bottom: 5%;
+  height: 200px;
   margin-left: 25px;
   background-color: lightgray;
   color: black;
+  word-break: break-all;
 }
 #submitButton {
   background-color: #e5040a;
   border-radius: 5px;
   border-color: #e5040a;
-  margin-right: 25px;
   color: white;
-  width: 905px;
-  height: 50px;
-  font-size: 25px;
-  justify-content: center;
-  margin-left: 25px;
-  margin-bottom: 10px;
+  width: 75%;
+  font-size: 250%;
+  align-items: center;
+  margin-bottom: 3%;
+  margin-left: 12%;
 }
 
 #submitButton:hover {
@@ -294,9 +280,8 @@ header > button {
 /* creating styles for the footer */
 
 #footer {
-  width: 50%;
-  height: 150px;
-  padding-top: 150px;
+  width: 100%;
+  padding-top: 10%;
   margin: 0 auto;
 }
 
@@ -305,22 +290,22 @@ header > button {
 }
 
 #left-footer-section {
-  padding-top: 15px;
   width: 33%;
   float: left;
   text-align: center;
-  font-size: 24px;
+  font-size: 150%;
+  padding-top: 2.5%;
 }
 
 #right-footer-section {
-  padding-top: 5px;
   width: 33%;
   float: right;
   text-align: center;
+  padding-top: 2%
 }
 
 #footer-image {
-  width: 75px;
+  width: 25%;
   text-align: center;
 }
 
@@ -334,9 +319,13 @@ header > button {
   background-color: #e5040a;
   border-radius: 5px;
   color: white;
-  width: 250px;
-  height: 50px;
-  font-size: 150%;
+  font-size: 125%;
+  text-decoration: none;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  
 }
 
 #footerDownloadButton:hover {
@@ -347,27 +336,25 @@ header > button {
 #divider {
   text-align: center;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 2%;
 }
 
 #divider hr {
   border: none;
   height: 2px;
   background-color: black;
-  width: 50%;
+  width: 85%;
   margin: 0 auto;
 }
 
 #footer-links {
-  padding-top: 50px;
+  padding-top: 3%;
   margin: 0 auto;
-  width: 50%;
-  font-size: 20px;
-  padding-bottom: 50px;
+  width: 23%;
+  padding-bottom: 3%;
 }
 
 #footer-nav {
-  font-size: 110%;
   list-style-type: none;
   letter-spacing: 2px;
   display: flex;
@@ -375,7 +362,7 @@ header > button {
 }
 
 #footer-nav-bar a {
-  font-size: 24px;
+  font-size: 150%;
   text-decoration: none;
   color: black;
 }
@@ -595,6 +582,7 @@ header > button {
 
   #intro-text {
     width: 50%;
+    padding-top: 50px;
   }
 
   #title {
@@ -609,6 +597,7 @@ header > button {
   }
 
   #main-section-buttons {
+    width: 100%;
     display: flex;
     float: left;
     padding-left: 10%;
@@ -621,7 +610,6 @@ header > button {
   }
 
   #mainVideo {
-    padding-top: 25px;
     padding-left: 15%
   }
 
@@ -885,27 +873,32 @@ header > button {
   /* home page adjustments */
 
   #video-and-intro-text-section {
-    width: 85%;
+    width: 100%;
     padding-left: 0px;
     height: 550px;
   }
 
   #downloadButton{
-    width: 150px;
+    text-align: center;
   }
 
   #learnButton{
-    width: 150px;
+    text-align: center;
   }
 
   #info-section {
-    width: 95%;
+    width: 90%;
     height: 450px;
     display: flex;
   }
 
+  #video{
+    width: 50%;
+  }
+
   #mainVideo{
     padding-right: 0px;
+    width: 85%;
   }
 
   #download-mainVideo{
