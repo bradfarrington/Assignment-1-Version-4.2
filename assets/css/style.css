@@ -21,23 +21,20 @@ header {
 /* styles for the header */
 
 .header-button{
-  background-color: #e5040a;
-  border-radius: 5px;
   float: right;
-  width: 250px;
-  height: 50px;
-  color: white;
-  font-size: 150%;
-  text-decoration: none;
+  padding-right: 50px;
 }
 
 #headerDownloadButton {
+  background-color: #e5040a;
+  border-radius: 5px;
   color: white;
-  font-size: 100%;
-  text-decoration: none;
+  width: 250px;
+  height: 50px;
+  font-size: 150%;
 }
 
-.header-button:hover {
+#headerDownloadButton:hover {
   transform: scale(1.1);
   border: 2px solid black;
 }
@@ -106,7 +103,6 @@ header > button {
 
 #mainVideo {
   padding-right: 0px;
-  padding-left: 15%;
 }
 
 #title {
@@ -136,13 +132,9 @@ header > button {
   border-radius: 5px;
   border-color: black;
   margin-right: 25px;
+  color: white;
   width: 175px;
   height: 40px;
-}
-
-#downloadButtonText{
-  color: white;
-  text-decoration: none;
   font-size: 18px;
 }
 
@@ -156,12 +148,8 @@ header > button {
   border-radius: 5px;
   width: 175px;
   height: 40px;
-}
-
-#learnButtonText {
   color: black;
   font-size: 18px;
-  text-decoration: none;
 }
 
 #learnButton:hover {
@@ -612,17 +600,19 @@ header > button {
     display: flex;
     float: left;
     padding-left: 10%;
-    padding-right: 0px;
   }
 
   #video {
     width: 40%;
+    float: right;
     padding-top: 100px;
   }
 
   #mainVideo {
+    width: 125%;
+    height: 300px;
     padding-top: 25px;
-    padding-left: 15%
+    padding-left: 45px;
   }
 
   br {
@@ -987,7 +977,9 @@ header > button {
 /* creating styles for mobile device */
 
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 430px) {
+  
+
 
 /* creating styles for the header */ 
 
@@ -996,7 +988,7 @@ header > button {
     padding-left: 15px;
   }
 
-  .header-button{
+  #headerDownloadButton{
     display: none;
   }
 
@@ -1010,7 +1002,7 @@ header > button {
 
   #video{
     width: 125%;
-    padding-right: 25px;
+    margin-right: 35px;
     padding-top: 10px;
   }
 
@@ -1034,18 +1026,6 @@ header > button {
   #mainParagraph {
     width: 90%;
     margin-left: 60px;
-  }
-
-  #main-section-buttons{
-    width: 90%;
-  }
-
-  #downloadButton{
-    width: 50%;
-  }
-
-  #learnButton{
-    width: 50%;
   }
 
 

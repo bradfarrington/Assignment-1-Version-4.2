@@ -230,4 +230,3 @@ The page consists of three pages, two videos, a contact form and two call-to-act
 ![Download Page](docs/features/download-page.png)
 
 ## Testing
-
