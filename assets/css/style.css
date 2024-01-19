@@ -713,6 +713,7 @@ header {
   #footer-nav {
     justify-content: center;
     align-items: center;
+    padding-left: 10%;
   }
   
   #footerDownloadButton {
@@ -1020,7 +1021,7 @@ header {
 /* creating styles for the header */ 
 
   #header-nav {
-    width: 100%;
+    width: 600%;
     padding-left: 15px;
   }
 
@@ -1030,38 +1031,34 @@ header {
 
 /* creating styles for the home page */
 
+#main-logo-section{
+  padding-top: 25%;
+  width: 100%;
+  height: 80%;
+}
+
   #video-and-intro-text-section {
     width: 60%;
     padding-left: 0px;
-    height: 550px;
-  }
-
-  #video{
-    width: 125%;
-    padding-right: 25px;
-    padding-top: 10px;
-  }
-
-  #mainVideo {
-    width: 120%;
-    margin-left: 65px;
+    height: 20%;
   }
 
   #intro-text{
-    width: 150%;
+    width: 160%;
   }
 
   #title{
     width: 90%;
-    font-size: 22px;
+    font-size: 200%;
     text-align: center;
-    margin-left: 40px;
-    margin-top: 60px;
+    padding-right: 5%;
+    padding-left: 7.5%;
   }
 
   #mainParagraph {
     width: 90%;
-    margin-left: 60px;
+    padding-left: 20%;
+    padding-top: 5%;
   }
 
   #main-section-buttons{
@@ -1076,12 +1073,22 @@ header {
     width: 50%;
   }
 
+  #video{
+    width: 100%;
+    padding-top: 5%;
+  }
+
+  #mainVideo {
+    width: 150%;
+  }
+
 
   #info-section{
-    width: 100%;
-    height: 900px;
+    width: 95%;
+    height: 100%;
     flex-direction: column;
     align-items: center;
+    padding-left: 2%;
   }
 
   #info-section div {
@@ -1090,36 +1097,47 @@ header {
   }
 
   #info-section h3 {
-    font-size: 20px;
+    font-size: 175%;
+    padding-top: 5%;
   }
 
-  #mockup-image-section{
-    width: 95%;
+  #info-section p {
+    font-size: 110%;
+    padding-top: 5%;
+    padding-bottom: 20%;
   }
 
-  #mockup-image-container{
+  #mockup-image-container > img {
     width: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
   }
+
 
   #contact-us-section h1 {
-    font-size: 20px;
+    font-size: 200%;
   }
 
   #fName{
-    font-size: 20px;
+    font-size: 150%;
     padding-top: 10px;
   }
 
   #email {
-    font-size: 20px;
+    font-size: 150%;
   }
 
   #number {
-    font-size: 20px;
+    font-size: 150%;
   }
 
   #message {
-    font-size: 20px;
+    font-size: 150%;
+    margin-left: 3%;
+  }
+
+  #submitButton{
+    font-size: 150%;
   }
 
 /* creating styles for the footer */
@@ -1129,14 +1147,18 @@ header {
   }
 
   #footer p {
-    font-size: 15px;
+    font-size: 50%;
     float: left;
     padding-left: 0px;
   }
 
+  #footer-image{
+    width: 30%;
+  }
+
   #footerDownloadButton {
     width: 75%;
-    font-size: 12px;
+    font-size: 75%;
     height: 50%;
     margin-top: 10px;
   }
@@ -1147,14 +1169,15 @@ header {
 
   #footer-nav {
     width: 100%;
+    padding-left: 20%;
   }
 
   #footer-nav a {
-    font-size: 20px;
+    font-size: 100%;
   }
 
   .about-download-links{
-    margin-left: 50px;
+    margin-left: 40%;
   }
 
 /* creating styles for the about page */
