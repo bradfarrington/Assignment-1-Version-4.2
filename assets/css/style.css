@@ -161,18 +161,19 @@ header {
 /* creating styles for the info horizontal section and image */
 
 #info-section {
-  width: 100%;
+  width: 90%;
   margin-top: 8%;
+  padding-left: 5%;
   float: left;
+  justify-content: space-between;
+  display: flex;
 }
 
 #info-section div {
   color: black;
   width: 20%;
-  height: 50%;
   float: left;
   text-align: center;
-  padding-left: 65px;
   margin-top: 10px;
 }
 #info-section i {
@@ -563,9 +564,8 @@ header {
     margin-top: 10px;
   }
 
-  #headerDownloadButton {
-    width: 125%;
-    font-size: 18px;
+  .header-button {
+    font-size: 125%;
   }
 
   /* styles for the home page */
@@ -602,6 +602,15 @@ header {
     float: left;
     padding-left: 10%;
     padding-right: 0px;
+    margin-top: 10%;
+  }
+
+  #downloadButton{
+    font-size: 125%;
+  }
+
+  #learnButton{
+    font-size: 125%;
   }
 
   #video {
@@ -620,9 +629,17 @@ header {
   /* creating styles for the info section */
 
   #info-section {
-    width: 95%;
+    width: 90%;
     height: 300px;
     display: flex;
+  }
+
+  #info-section h3{
+    padding-top: 15%;
+  }
+
+  #info-section p {
+    padding-top: 10%;
   }
 
 
@@ -872,6 +889,10 @@ header {
 
   /* home page adjustments */
 
+  #main-logo-section{
+    padding-top: 5%;
+  }
+
   #video-and-intro-text-section {
     width: 100%;
     padding-left: 0px;
@@ -893,7 +914,8 @@ header {
   }
 
   #video{
-    width: 50%;
+    width: 45%;
+    padding-right: 5%;
   }
 
   #mainVideo{
@@ -903,7 +925,20 @@ header {
 
   #download-mainVideo{
     padding-right: 0px;
+  }
 
+  #info-section{
+    justify-content: space-between;
+    width: 90%;
+    padding-left: 5%;
+  }
+
+  #info-section h3{
+    padding-top: 20%;
+  }
+
+  #info-section p {
+    padding-top: 15%;
   }
 
   
