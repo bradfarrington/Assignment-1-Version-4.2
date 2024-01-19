@@ -571,7 +571,7 @@ header {
   /* styles for the home page */
 
   #main-logo-section {
-    height: 320px;
+    height: 350px;
   }
 
   #video-and-intro-text-section {
@@ -1335,4 +1335,12 @@ header {
 
 }
 
-/* adding random test to update the styles to see changes on live website with updated styles which didnt commit properly */
+@media screen and (max-width: 390px){
+    #header-nav {
+    width: 350%;
+  }
+
+  .header-button{
+    display: none;
+  }
+}
