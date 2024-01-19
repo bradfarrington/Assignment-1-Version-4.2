@@ -231,3 +231,8 @@ The page consists of three pages, two videos, a contact form and two call-to-act
 
 ## Testing
 
+### HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
+
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbradfarrington.github.io%2FAssignment-1-Version-4.2%2Findex.html)
