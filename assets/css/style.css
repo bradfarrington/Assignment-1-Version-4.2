@@ -191,7 +191,7 @@ header {
 
 #mockup-image-section {
   width: 100%;
-  padding-top: 25%;
+  padding-top: 5%;
 }
 
 #mockup-image-container {
@@ -207,7 +207,7 @@ header {
 
 #contact-us-section h1 {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 300%;
   margin-top: 10%;
 }
@@ -361,7 +361,7 @@ header {
   list-style-type: none;
   letter-spacing: 2px;
   display: flex;
-  padding-left: 5%
+  padding-left: 1%
 }
 
 #footer-nav-bar a {
@@ -422,7 +422,7 @@ header {
 }
 
 #description-one-header {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 350%;
   margin-top: 10%;
 }
@@ -430,6 +430,7 @@ header {
 #description-one-paragraph {
   font-size: 125%;
   padding-top: 3%;
+  line-height: 150%;
 }
 
 #description-one-mockup {
@@ -450,7 +451,7 @@ header {
 }
 
 #description-two-header {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 350%;
   margin-top: 10%;
 }
@@ -458,6 +459,7 @@ header {
 #description-two-paragraph {
   font-size: 125%;
   padding-top: 3%;
+  line-height: 150%;
 }
 
 #description-two-mockup {
@@ -480,7 +482,7 @@ header {
 }
 
 #description-three-header {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 350%;
   margin-top: 10%;
 }
@@ -488,6 +490,7 @@ header {
 #description-three-paragraph {
   font-size: 125%;
   padding-top: 3%;
+  line-height: 150%;
 }
 
 #description-three-mockup {
@@ -498,7 +501,7 @@ header {
 /* creating extra styles for the download page */
 
 #download-video-and-intro-text-section {
-  height: 600px;
+  height: 100%;
 }
 
 #download-main-text {
@@ -507,27 +510,26 @@ header {
 }
 
 #download-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 350%;
   padding-top: 95px;
   float: right;
-  padding-right: 225px;
 }
 
 #download-video {
   float: right;
-  padding-top: 100px;
+  padding-top: 7.5%;
   width: 50%;
 }
 
 #download-mainVideo {
-  padding-right: 0px;
+  padding-right: 5%;
 }
 
 #app-store-buttons-section {
   width: 100%;
-  height: 150px;
-  margin-top: 150px;
+  height: 100%;
+  margin-top: 10%;
 }
 
 #app-store-buttons-container {
@@ -582,18 +584,17 @@ header {
   }
 
   #intro-text {
-    width: 50%;
-    padding-top: 50px;
+    width: 55%;
   }
 
   #title {
-    font-size: 30px;
+    font-size: 300%;
     padding-right: 0px;
     padding-left: 45px;
   }
 
   #mainParagraph {
-    font-size: 18px;
+    font-size: 150%;
     padding-left: 45px;
   }
 
@@ -616,11 +617,10 @@ header {
 
   #video {
     width: 40%;
-    padding-top: 100px;
   }
 
   #mainVideo {
-    padding-left: 15%
+    padding-left: 15%;
   }
 
   br {
@@ -762,7 +762,7 @@ header {
 
   #description-one-mockup {
     width: 35%;
-    padding-top: 5%;
+    padding-top: 8%;
   }
 
   #description-one-mockup-image {
@@ -792,7 +792,7 @@ header {
 
   #description-two-mockup {
     width: 35%;
-    padding-top: 4%;
+    padding-top: 6%;
     padding-left: 7%;
   }
 
@@ -820,7 +820,7 @@ header {
 
   #description-three-mockup {
     width: 35%;
-    padding-top: 7.5%;
+    padding-top: 12%;
   }
 
   #description-three-mockup-image {
@@ -833,30 +833,30 @@ header {
   #download-video-and-intro-text-section {
     width: 75%;
     padding-left: 40px;
-    height: 500px
+    height: 60%
   }
 
   #download-main-text{
-    width: 50%;
+    width: 55%;
   }
   
   #download-title{
-    font-size: 30px;
+    font-size: 300%;
     float: left;
-    padding-left: 45px;
+    padding-left: 8%;
+    padding-right: 5%;
   }
 
   #download-video {
     width: 40%;
+    height: 50%;
     float: right;
-    padding-top: 100px;
   }
 
   #download-mainVideo {
-    width: 125%;
-    height: 300px;
-    padding-top: 25px;
-    padding-left: 45px;
+    width: 150%;
+    height: 300%;
+    padding-left: 10%;
   }
 
   #app-store-buttons-container {
@@ -921,8 +921,30 @@ header {
     width: 85%;
   }
 
+  #download-main-text{
+    width: 40%;
+  }
+
+  #download-title{
+    font-size: 300%;
+  }
+
+  #mainParagraph{
+    font-size: 135%;
+  }
+
   #download-mainVideo{
     padding-right: 0px;
+  }
+
+  #download-video{
+    width: 40%;
+  }
+
+  #download-mainVideo{
+    width: 125%;
+    height: 100%;
+    padding-top: 35%;
   }
 
   #info-section{
@@ -1047,7 +1069,7 @@ header {
 
   #header-nav {
     width: 600%;
-    padding-left: 15px;
+    padding-left: 3%;
   }
 
   .header-button{
@@ -1088,6 +1110,7 @@ header {
 
   #main-section-buttons{
     width: 90%;
+    padding-left: 6.5%;
   }
 
   #downloadButton{
@@ -1328,7 +1351,7 @@ header {
   }
 
   #main-section-buttons{
-    padding-right: 0px;
+    padding-left: 5%;
   }
 
   #download-video{
@@ -1343,30 +1366,28 @@ header {
   }
 
   #app-store-buttons-section{
-    height: 300px;
+    padding-top: 40%;
+    height:85%
   }
 
   #app-store-buttons-container{
-    flex-direction: column;
+    flex-direction: row;
   }
 
   #apple-store-button-container{
-    width: 100%;
+    width: 50%;
   }
 
   #play-store-button-container{
-    width: 100%;
+    width: 50%;
   }
 
   #apple-store-button{
-    width: 50%;
-    margin-left: 50px;
+    width: 60%;
   }
 
   #play-store-app-button{
-    width: 50%;
-    padding-top: 25px;
-    padding-right: 24%;
+    width: 65%;
   }
 
 }
@@ -1378,5 +1399,90 @@ header {
 
   .header-button{
     display: none;
+  }
+}
+
+@media screen and (min-width: 2250px){
+
+  /*styles for homepage on 27inch screen */
+
+  #intro-text{
+    width: 45%;
+  }
+  #title{
+    font-size: 450%;
+  }
+  #mainParagraph{
+    clear: both;
+    font-size: 180%;
+  }
+  #video{
+    width: 55%;
+    height: 100%;
+  }
+  #mainVideo{
+    width: 100%;
+    height: 75%;
+    padding-right: 20%;
+    padding-left: 0%;
+    padding-top: 4%;
+  }
+  #info-section{
+    padding-top: 5%;
+  }
+  #info-section i {
+    font-size: 400%;
+  }
+  #info-section h3{
+    font-size: 200%;
+  }
+  #info-section p{
+    font-size: 150%;
+  }
+  #mockup-image-section{
+    padding-top: 5%;
+  }
+  #footer-nav-bar{
+    padding-left: 13%;
+  }
+
+  /*styles for about on 27inch screen */
+
+  #description-container{
+    padding-top: 10%;
+  }
+  #description-container h1{
+    font-size: 400%;
+  }
+  #description-container p{
+    font-size: 175%;
+  }
+  #designer-Video{
+    width: 100%;
+    height:100%;
+  }
+
+  /* styles for the download page on 27 inch screen */
+
+  #download-main-text{
+    width: 45%;
+  }
+  #download-title{
+    font-size: 450%;
+    padding-right: 21%
+  }
+  #download-video{
+    width: 55%;
+    height: 100%;
+    padding-top: 5%;
+  }
+  #download-mainVideo{
+    width: 100%;
+    height: 75%;
+    padding-right: 20%;
+    padding-left: 0%;
+  }
+  #download-video-and-intro-text-section{
+    padding-top: 2%;
   }
 }
