@@ -94,7 +94,7 @@ header {
 
 #video {
   float: right;
-  padding-top: 120px;
+  padding-top: 7.5%;
   width: 50%;
 }
 
@@ -103,6 +103,7 @@ header {
 }
 
 #title {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 300%;
   margin-top: 15%;
   padding-left: 25.5%;
@@ -511,9 +512,9 @@ header {
 
 #download-title {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 350%;
-  padding-top: 95px;
-  float: right;
+  font-size: 300%;
+  padding-top: 15%;
+  padding-left: 25.5%
 }
 
 #download-video {
@@ -523,7 +524,7 @@ header {
 }
 
 #download-mainVideo {
-  padding-right: 5%;
+  padding-left: 15%;
 }
 
 #app-store-buttons-section {
