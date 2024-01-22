@@ -1108,11 +1108,6 @@ header {
     padding-top: 5%;
   }
 
-  #main-section-buttons{
-    width: 90%;
-    padding-left: 6.5%;
-  }
-
   #downloadButton{
     width: 50%;
   }
@@ -1340,9 +1335,8 @@ header {
 
   #download-main-text h1{
     text-align: center;
-    font-size: 22px;
-    padding-right: 0px;
-    padding-left: 65px;
+    font-size: 200%;
+    padding-right: 7.5%;
   }
 
   #download-main-text p {
@@ -1351,7 +1345,8 @@ header {
   }
 
   #main-section-buttons{
-    padding-left: 5%;
+    width: 90%;
+    padding-left: 7.5%;
   }
 
   #download-video{
@@ -1367,7 +1362,7 @@ header {
 
   #app-store-buttons-section{
     padding-top: 40%;
-    height:85%
+    height:70%
   }
 
   #app-store-buttons-container{
