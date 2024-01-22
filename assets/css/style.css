@@ -894,7 +894,7 @@ header {
   #video-and-intro-text-section {
     width: 100%;
     padding-left: 0px;
-    height: 550px;
+    height: 100%;
   }
 
   #downloadButton{
@@ -907,45 +907,32 @@ header {
 
   #info-section {
     width: 90%;
-    height: 450px;
+    height: 100%;
     display: flex;
   }
 
   #video{
-    width: 45%;
-    padding-right: 5%;
+    width: 50%;
+    padding-top: 5%;
   }
 
   #mainVideo{
-    padding-right: 0px;
-    width: 85%;
+    width: 80%;
   }
 
-  #download-main-text{
-    width: 40%;
+  #intro-text{
+    width: 50%;
   }
 
-  #download-title{
-    font-size: 300%;
+  #title{
+    font-size: 250%;
   }
 
   #mainParagraph{
-    font-size: 135%;
+    font-size: 100%;
   }
 
-  #download-mainVideo{
-    padding-right: 0px;
-  }
-
-  #download-video{
-    width: 40%;
-  }
-
-  #download-mainVideo{
-    width: 125%;
-    height: 100%;
-    padding-top: 35%;
-  }
+  
 
   #info-section{
     justify-content: space-between;
@@ -963,6 +950,10 @@ header {
 
   #contact-form{
     height: 100%;
+  }
+
+  #footer-image{
+    width: 25%;
   }
 
   
@@ -1044,17 +1035,31 @@ header {
   /* download page adjustments */
 
   #download-main-text {
-    width: 60%;
+    width: 50%;
   }
 
-  #download-main-paragraph {
-    width: 100%;
+  #download-title{
+    font-size: 250%;
+  }
+
+  #mainParagraph {
+    font-size: 125%;
   }
 
   #download-video-and-intro-text-section{
-    width: 85%;
+    width: 100%;
     padding-left: 0px;
-    height: 550px;
+    height: 100%;
+  }
+
+  #download-video{
+    width: 50%;
+    padding-top: 15%;
+  }
+
+  #download-mainVideo{
+    width: 80%;
+    height: 100%;
   }
 
 
