@@ -84,7 +84,7 @@ header {
 }
 
 #video-and-intro-text-section {
-  height: 600px;
+  height: 100%;
 }
 
 #intro-text {
@@ -107,7 +107,6 @@ header {
   font-size: 300%;
   margin-top: 15%;
   padding-left: 25.5%;
-
 }
 
 #mainParagraph {
