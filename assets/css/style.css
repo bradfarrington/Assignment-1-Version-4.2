@@ -83,6 +83,11 @@ header {
   text-align: center;
 }
 
+#app-icon{
+  width: 350px;
+  height: 323px;
+}
+
 #video-and-intro-text-section {
   height: 100%;
 }
