@@ -5,19 +5,10 @@
   border: 0;
 }
 
-
-
 body {
-  @font-face{
-  font-family:Arial, Helvetica, sans-serif;
-  font-display: auto;
-}
-
-  /*
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   display: grid;
   background-color: white;
-  */
 }
 
 header {
@@ -113,14 +104,13 @@ header {
 }
 
 #title {
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 300%;
   margin-top: 15%;
   padding-left: 25.5%;
 }
 
 #mainParagraph {
-  font-family: Arial;
   font-size: 150%;
   margin-top: 3%;
   float: right;
