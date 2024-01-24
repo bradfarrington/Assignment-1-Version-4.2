@@ -1569,12 +1569,12 @@ header {
   #video{
     width: 55%;
     height: 100%;
+    padding-top: 7.5%;
   }
   #mainVideo{
-    width: 100%;
+    width: 60%;
     height: 75%;
-    padding-right: 20%;
-    padding-left: 0%;
+    padding-left: 25%;
   }
   #info-section{
     padding-top: 5%;
