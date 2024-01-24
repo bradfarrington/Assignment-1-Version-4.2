@@ -233,7 +233,7 @@ header {
   display: none;
 }
 
-.input-text-placeholders{
+#fName {
   width: 90%;
   font-size: 225%;
   margin-bottom: 5%;
@@ -241,7 +241,32 @@ header {
   background-color: lightgray;
   color: black;
 }
-
+#email {
+  width: 90%;
+  font-size: 225%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  background-color: lightgray;
+  color: black;
+}
+#number {
+  width: 90%;
+  font-size: 225%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  background-color: lightgray;
+  color: black;
+}
+#message {
+  width: 90%;
+  font-size: 225%;
+  margin-bottom: 5%;
+  height: 200px;
+  margin-left: 25px;
+  background-color: lightgray;
+  color: black;
+  word-break: break-all;
+}
 #submitButton {
   background-color: #e5040a;
   border-radius: 5px;
