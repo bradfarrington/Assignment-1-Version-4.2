@@ -247,14 +247,16 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 
 <details><summary>style.css<summary>
 <img src="docs/results/CSS-Validator.png">
-<details>
+</details>
 
 ### Accessibility
 
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
 index.html [results](https://wave.webaim.org/report#/https://bradfarrington.github.io/Assignment-1-Version-4.2/index.html)
+
 about.html[results](https://wave.webaim.org/report#/https://bradfarrington.github.io/Assignment-1-Version-4.2/about.html)
+
 download.html[results](https://wave.webaim.org/report#/https://bradfarrington.github.io/Assignment-1-Version-4.2/download.html)
 
 ### Performance
