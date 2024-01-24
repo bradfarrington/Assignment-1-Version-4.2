@@ -230,7 +230,13 @@ header {
 }
 
 #contact-form label{
-  display: none !important;
+  padding-left: 3%;
+  font-size: 180%;
+  color: black;
+}
+
+.input-text{
+  color: #e5040a;
 }
 
 #fName {
@@ -262,7 +268,7 @@ header {
   font-size: 225%;
   margin-bottom: 5%;
   height: 200px;
-  margin-left: 25px;
+  margin-left: 3%  ;
   background-color: lightgray;
   color: black;
   word-break: break-all;
@@ -696,6 +702,12 @@ header {
     width: 100%;
     height: 100%;
   }
+
+  #contact-form label{
+  padding-left: 3%;
+  font-size: 150%;
+  color: black;
+}
 
   #submitButton {
     width: 90%;
@@ -1222,6 +1234,12 @@ header {
   #contact-form{
     height: 100%;
   }
+
+  #contact-form label{
+  padding-left: 3%;
+  font-size: 125%;
+  color: black;
+}
 
   #fName{
     font-size: 150%;
