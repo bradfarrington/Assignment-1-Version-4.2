@@ -240,3 +240,14 @@ index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbradfarringt
 about.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbradfarrington.github.io%2FAssignment-1-Version-4.2%2Fabout.html)
 
 download.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbradfarrington.github.io%2FAssignment-1-Version-4.2%2Fdownload.html)
+
+### CSS Validation
+
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. When pasting in my code using direct input the results were complete with no warnings.
+
+<details><summary>style.css<summary>
+<img src="docs/results/CSS-Validator.png">
+<details>
+
+### Accessibility
+
