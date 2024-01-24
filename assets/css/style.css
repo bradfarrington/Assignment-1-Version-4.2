@@ -230,7 +230,7 @@ header {
 }
 
 #contact-form label{
-  display: none;
+  display: none !important;
 }
 
 #fName {
