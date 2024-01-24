@@ -391,13 +391,11 @@ header {
 
 #designer-video-section {
   width: 100%;
-  height: 500px;
   padding-top: 5%;
 }
 
 #designer-video-container {
   width: 100%;
-  height: 600px;
   text-align: center;
 }
 
@@ -408,13 +406,9 @@ header {
 
 /* creating styles for the descriptions and mockup section */
 
-#description-section {
-  width: 100%;
-  margin-top: 5%;
-}
-
 #description-container {
   width: 100%;
+  margin-top: 5%;
 }
 
 #description-one {
@@ -525,12 +519,8 @@ header {
 
 #download-video {
   float: right;
-  padding-top: 7.5%;
-  width: 50%;
-}
-
-#download-mainVideo {
-  padding-left: 15%;
+  padding-top: 10%;
+  width: 40%;
 }
 
 #app-store-buttons-section {
@@ -748,15 +738,20 @@ header {
 
   /* creating styles for the designer-video-section */
 
+  /* styles for the designer video */
+
+  #designer-video-container
+
   /* styles for description-one */
 
   #designer-video-section {
-    height: 450px;
+    width: 75%;
+    height: 100%;
   }
 
-  #designer-Video {
-    width: 75%;
-    height: 500px;
+  #designerVideo {
+    width: 60%;
+    height: 60%;
   }
 
   #description-container {
@@ -928,6 +923,11 @@ header {
   #mockup-image-section{
     padding-top: 5%;
   }
+
+  #description-container {
+    width: 100%;
+    padding-top: 0%;
+  }
 }
 
 /* creating styles for ipad air portrait */
@@ -949,6 +949,11 @@ header {
   #mainVideo{
     width: 90%;
     padding-top:10%;
+  }
+
+    #designerVideo{
+    width: 75%;
+    height: 60%;
   }
 
   #download-title{
@@ -1240,6 +1245,7 @@ header {
 
   #mainVideo {
     width: 155%;
+    height: 100%;
   }
 
 
@@ -1352,14 +1358,21 @@ header {
 
 /* creating styles for the about page */
 
-  #designer-Video{
+#designer-video-container{
+  width: 100%;
+}
+
+  #designerVideo{
     width: 90%;
+    height: 45%;
     padding-bottom: 0px;
   }
 
 
   #description-container{
+    width: 90%;
     flex-direction: column;
+    padding-top: 0%;
   }
 
   #description-one {
@@ -1478,13 +1491,14 @@ header {
 
   #download-mainVideo{
     width: 85%;
+    height: 70%;
     padding-left: 30px;
     padding-right: 0px;
     padding-top: 0px;
   }
 
   #app-store-buttons-section{
-    padding-top: 40%;
+    padding-top: 20%;
     height:70%
   }
 
@@ -1522,6 +1536,11 @@ header {
   #mainVideo{
     width: 155%;
   }
+
+  #download-mainVideo{
+    width: 85%;
+    height: 60%;
+  }
 }
 
 @media screen and (max-width: 360px){
@@ -1545,6 +1564,11 @@ header {
 
   #mainVideo{
     width: 155%;
+  }
+
+  #download-mainVideo{
+    width: 85%;
+    height: 50%;
   }
 }
 
