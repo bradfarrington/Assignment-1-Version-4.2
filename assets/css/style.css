@@ -1647,12 +1647,16 @@ header {
     padding-top: 5%;
   }
   #download-mainVideo{
-    width: 100%;
+    width: 60%;
     height: 75%;
-    padding-right: 20%;
-    padding-left: 0%;
+    padding-left: 25%;
   }
   #download-video-and-intro-text-section{
     padding-top: 2%;
+  }
+
+  #designerVideo{
+    width: 40%;
+    height: 50%;
   }
 }
