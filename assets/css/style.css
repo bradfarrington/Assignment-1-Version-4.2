@@ -5,10 +5,19 @@
   border: 0;
 }
 
+
+
 body {
+  @font-face{
+  font-family:Arial, Helvetica, sans-serif;
+  font-display: auto;
+}
+
+  /*
   font-family: Arial;
   display: grid;
   background-color: white;
+  */
 }
 
 header {
