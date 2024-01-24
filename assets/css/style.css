@@ -99,12 +99,8 @@ header {
 
 #video {
   float: right;
-  padding-top: 7.5%;
-  width: 50%;
-}
-
-#mainVideo {
-  padding-left: 15%;
+  padding-top: 10%;
+  width: 40%;
 }
 
 #title {
@@ -585,7 +581,7 @@ header {
   /* styles for the home page */
 
   #main-logo-section {
-    height: 350px;
+    height: 100%
   }
 
   #app-icon{
@@ -633,11 +629,13 @@ header {
 
   #video {
     width: 40%;
+    
   }
 
   #mainVideo {
-    padding-left: 10%;
+    width: 155%;
     padding-top: 12%;
+    padding-left: 7%;
   }
 
   br {
@@ -905,9 +903,22 @@ header {
   width: 15%;
   height: 15%;
 }
+
+#title{
+  font-size: 250%;
+}
+
+#mainParagraph{
+  font-size: 125%;
+}
+
+#video{
+  width: 40%;
+}
+
   #mainVideo{
-    width: 150%;
-    padding-top: 20%;
+    width: 155%;
+    padding-top: 12%;
   }
 
   #info-section h3 {
@@ -928,6 +939,20 @@ header {
   }
   #info-section h3{
     font-size: 135%;
+  }
+
+  #title{
+    font-size: %;
+  }
+
+  #video{
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  #mainVideo{
+    width: 90%;
+    padding-top:10%;
   }
 
   #download-title{
@@ -991,8 +1016,8 @@ header {
   }
 
   #mainVideo{
-    width: 80%;
-    padding-top: 5%;
+    width: 90%;
+    padding-top:10%;
   }
 
   #intro-text{
@@ -1218,7 +1243,7 @@ header {
   }
 
   #mainVideo {
-    width: 145%;
+    width: 155%;
   }
 
 
@@ -1499,7 +1524,7 @@ header {
   }
 
   #mainVideo{
-    width: 145%;
+    width: 155%;
   }
 }
 
@@ -1523,7 +1548,7 @@ header {
   }
 
   #mainVideo{
-    width: 145%;
+    width: 155%;
   }
 }
 
