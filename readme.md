@@ -30,10 +30,10 @@ This is the website for the BSW Customer Portal. It is designed to be responsive
     4. [Performance](#performance)
     5. [Device Testing](#device-tests)
     6. [Browser Compatibility](browser-compatibility)
-6. [Bugs](#bugs)
-7. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Acknowledgements] (#acknowledgements)
+    7. [Testing User Stories](testing-user-stories)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+8. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
@@ -49,7 +49,7 @@ Secondary goal is to get users to interact with the form and the videos and to d
 - Call to action buttons which the user can follow throught the site.
 
 
-### Site OWner Goals
+### Site Owner Goals
 - Increase the number of app users.
 - Promote the overall business of Bradley Scott Windows.
 - Provide a way for new users to download the app.
@@ -285,4 +285,177 @@ In addiditon the website was tested using Chrom Dev Tools device toggle option.
 ### Browser Compatibility
 The website was tested on the following browser:
 - Google Chrome
-- Apple Safari
+- Apple Safari 13 and 16
+- Mozilla Firefox
+
+### Testing User Stories
+
+#### First-time User
+
+1. As a firt-time user, I want to know what the app does.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Video | On index page watch the video when it autoplays | Video autoplays highlighting the features | Works as expected |
+| Mockup Image | On index page scroll down to the feature list | See the mockup image | Works as expected |
+
+<details><summary>Watch Video / See Mockup Image</summary>
+<img src="docs/results/user-stories/recording-of-first-time-user.gif">
+</details>
+<br>
+
+2. As a firt-time user, I want to know how to download the app.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Download Buttons | On index page look for the download now buttons | Takes the user to the download page | Works as expected |
+| App Store Links | On download page click either apple store or play store | Takes the user to the correct store to download | Works as expected |
+
+<details><summary>Download Button / App Store Links</summary>
+<img src="docs/results/user-stories/recording-of-first-time-user.gif">
+</details>
+<br>
+
+3. As a first time user, i want to easily contact the company.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | On index page scroll down to the contact us section | Fill out details and submit | Works as expected |
+
+<details><summary>Contact Us Form</summary>
+<img src="docs/results/user-stories/recording-of-first-time-user-form.gif">
+</details>
+<br>
+
+4. As a first time user, i want to learn about what i can get from the app.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Video | On index page watch the video when it autoplays | Video autoplays highlighting the features | Works as expected |
+| Mockup Image | On index page scroll down to the feature list | See the mockup image | Works as expected |
+
+<details><summary>Watch Video / See Mockup Image</summary>
+<img src="docs/results/user-stories/recording-of-first-time-user.gif">
+</details>
+<br>
+
+#### Returning User
+
+5. As a returning user, i want to remember where i seen a specific part of information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Easily navigate through the pages of the website | Access each page with ease | Works as expected |
+| Footer Navigation Bar | Easily navigate through the pages of the website | Access each page with ease | Works as expected |
+
+<details><summary>Navigate Website</summary>
+<img src="docs/results/user-stories/recording-return-user-easily-navigate.gif">
+</details>
+<br>
+
+6. As a returning user, i want the website to be the same as the previous time i looked.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Static Website | Easily navigate through the pages of the website | Visuals havent changed | Works as expected |
+
+<details><summary>Static Website</summary>
+<img src="docs/results/user-stories/recording-return-user-easily-navigate.gif">
+</details>
+<br>
+
+7. As a returning user, i want to be able to share the website easily.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| URL | Copy the link to share the website | Share Successfully | Works as expected |
+
+<details><summary>Share URL</summary>
+<img src="docs/results/user-stories/recording-return-user-URL.gif">
+</details>
+<br>
+
+#### Site Owner
+
+8. As the site owner, i would like to be proud of the website i am hosting online.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Design | Visit the page regularly to fix any bugs | Website has a good appearance and performace | Works as expected |
+
+<details><summary>Website Design</summary>
+<img src="docs/results/user-stories/recording-site-owner-1.gif">
+</details>
+<br>
+
+9. As the site owner, i would like users to be able to navigate easily throughout my website.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Easily navigate through the pages of the website | Access each page with ease | Works as expected |
+| Footer Navigation Bar | Easily navigate through the pages of the website | Access each page with ease | Works as expected |
+
+<details><summary>Navigate Website</summary>
+<img src="docs/results/user-stories/recording-return-user-easily-navigate.gif">
+</details>
+<br>
+
+10. As the site owner, i would like users to share the website.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Share URL | Copy the link to share the website | Share Successfully | Works as expected |
+
+<details><summary>Share URL</summary>
+<img src="docs/results/user-stories/recording-return-user-URL.gif">
+</details>
+<br>
+
+11. As the site owner, i would like users to download the app.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Download Buttons | On index page look for the download now buttons | Takes the user to the download page | Works as expected |
+| App Store Links | On download page click either apple store or play store | Takes the user to the correct store to download | Works as expected |
+
+<details><summary>Download Button / App Store Links</summary>
+<img src="docs/results/user-stories/recording-of-first-time-user.gif">
+</details>
+<br>
+
+12. As the site owner, i would like users to contact us through the form.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | On index page scroll down to the contact us section | Fill out details and submit | Works as expected |
+
+<details><summary>Contact Us Form</summary>
+<img src="docs/results/user-stories/recording-of-first-time-user-form.gif">
+</details>
+<br>
+
+ ## Deployment
+
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left-hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automatically you will see a ribbon on the top saying: Your site is live at bradfarrington.github.io/Assignment-1-Version-4.2/
+
+
+## Credits
+
+### Media
+
+All images and videos throughout the website were created by the developer and owned by <strong> Bradley Scott Windows LTD </strong>.
+
+### Code
+
+All code in this website was created by the developer.
+
+### Acknowledgments
+
+I would like to take the opportunity to thank:
+
+- My team mates on the Code Insitute Web Development course.
+- South Staffordshire College and my tutor Adam or their support and help throughout
