@@ -272,3 +272,17 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>download.html</summary>
 <img src="docs/results/lighthouse/download-html-results.png">
 </details>
+
+### Performing test on various devices
+The website was tested on the following devices:
+- Imac 27"
+- iPad Pro
+- iPad Air
+- iPhone 13
+
+In addiditon the website was tested using Chrom Dev Tools device toggle option.
+
+### Browser Compatibility
+The website was tested on the following browser:
+- Google Chrome
+- Apple Safari
