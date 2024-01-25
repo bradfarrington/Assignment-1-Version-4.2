@@ -245,7 +245,7 @@ download.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbradfarri
 
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. When pasting in my code using direct input the results were complete with no warnings.
 
-<details><summary>style.css<summary>
+<details><summary>style.css</summary>
 <img src="docs/results/CSS-Validator.png">
 </details>
 
