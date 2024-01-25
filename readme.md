@@ -262,3 +262,13 @@ download.html[results](https://wave.webaim.org/report#/https://bradfarrington.gi
 ### Performance
 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. All aspects performing well.
+
+<details><summary>index.html</summary>
+<img src="docs/results/lighthouse/index-html-results.png">
+</details>
+<details><summary>about.html</summary>
+<img src="docs/results/lighthouse/about-html-results.png">
+</details>
+<details><summary>download.html</summary>
+<img src="docs/results/lighthouse/download-html-results.png">
+</details>
