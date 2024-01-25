@@ -458,4 +458,4 @@ All code in this website was created by the developer.
 I would like to take the opportunity to thank:
 
 - My team mates on the Code Insitute Web Development course.
-- South Staffordshire College and my tutor Adam or their support and help throughout
+- South Staffordshire College and my tutor Adam for their support and help throughout.
