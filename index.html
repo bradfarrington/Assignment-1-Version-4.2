@@ -9,7 +9,7 @@
     >
     <title>Explore BSW Customer Portal</title>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/x-icon" href="assets/images/FAVICON.ico">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script
       src="https://kit.fontawesome.com/755d98b8ba.js"
       crossorigin="anonymous"
@@ -17,6 +17,7 @@
   </head>
 
   <body>
+    <!-- here i am creating the header content -->
     <header>
       <nav>
         <ul id="header-nav">
@@ -35,11 +36,15 @@
       <a class="header-button" href="download.html">Download Now</a>
     </header>
 
+    <!-- Here i am creating a section which will be used on all pages which contains the app logo -->
+
     <div id="main-logo-section">
       <div id="main-logo">
         <img id="app-icon" src="assets/images/icon.webp" alt="app-icon-logo">
       </div>
     </div>
+
+    <!-- The video-and-intro-text-section is the main section of the home page which holds the page title / a paragraph and a video about the app -->
 
     <div id="video-and-intro-text-section">
       <div id="intro-text">
@@ -64,7 +69,7 @@
       <div id="video">
         <video
           id="mainVideo"
-          src="assets/videos/BSW-CUSTOMER-PORTAL-UPDATED-PROMO-VIDEO.mp4"
+          src="assets/videos/customer-portal-video.mp4"
           width="500"
           height="280"
           autoplay
@@ -74,6 +79,8 @@
         ></video>
       </div>
     </div>
+
+    <!-- The info-section which i am creating below contains four seperate divs shortly describing the main feature of the app -->
 
     <div id="info-section">
       <div class="first-two-sections-info" id="first">
@@ -114,22 +121,28 @@
       </div>
     </div>
 
+    <!-- The mockup-image-section div which i have created simply holds the image of the 4 mockups also showing the main features of the app but on a mobile device to show the user how the app actually looks -->
+
     <div id="mockup-image-section">
       <div id="mockup-image-container">
         <img
           id="mockup-image"
-          src="assets/images/BSWPORTAL-MOCKUPS-FOOTER-NEW-2023.webp"
+          src="assets/images/bswport-mockups.webp"
           alt="mockup-image"
         >
       </div>
     </div>
 
+    <!-- The contact-us-section simply holds a header which titles the form which is rendered below its div -->
+
     <div id="contact-us-section">
       <h1>Contact Us</h1>
     </div>
 
+    <!-- The form-section holds the contact form the user would use to send their message to the site owner -->
+
     <div id="form-section">
-      <form id="contact-form">
+      <form action="https://formdump.codeinstitute.net/" method="POST" id="contact-form">
         <label for="fName">Name:</label>
         <input type="text" id="fName" name="first-name">
         <br>
@@ -148,6 +161,8 @@
         <button id="submitButton" type="submit">Submit</button>
       </form>
     </div>
+
+    <!-- This is the footer which will be used throughout the website. It holds 3 divs - one which is some text - the second is the logo of the app and the third is the download button which takes the user to the download page -->
 
     <footer id="footer">
       <div id="main-footer-container">

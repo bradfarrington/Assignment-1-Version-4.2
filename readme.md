@@ -447,7 +447,9 @@ The website was deployed using GitHub Pages by following these steps:
 
 ### Media
 
-All images and videos throughout the website were created by the developer and owned by <strong> Bradley Scott Windows LTD </strong>.
+All custom images and videos throughout the website were created by the developer and owned by <strong> Bradley Scott Windows LTD </strong>.
+
+App store logos are from Google Images
 
 ### Code
 
